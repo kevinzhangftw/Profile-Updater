@@ -10,11 +10,11 @@ import Postcard from '../../components/Postcard'
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles'
 import {grey, amber, red} from 'material-ui/colors'
 // import static images from the image folder
-import winningTeam from '../../images/winningTeam.jpg'
-import kaiTimmies from '../../images/kaiTimmies.jpg'
-import filmShoot from '../../images/filmShoot.jpg'
-import kai2016 from '../../images/kai2016.jpg'
-import kai2017 from '../../images/kai2017.jpg'
+// import winningTeam from '../../images/winningTeam.jpg'
+// import kaiTimmies from '../../images/kaiTimmies.jpg'
+// import filmShoot from '../../images/filmShoot.jpg'
+// import kai2016 from '../../images/kai2016.jpg'
+// import kai2017 from '../../images/kai2017.jpg'
 
 const darkBaseTheme = createMuiTheme({
   palette: {
