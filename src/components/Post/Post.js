@@ -1,6 +1,6 @@
 import React from 'react'
 import {Card, CardMedia, CardTitle, CardText, CardHeader, CardActions} from 'material-ui/Card'
-import FlatButton from 'material-ui/FlatButton'
+import FlatButton from 'material-ui/Button'
 
 const Post = ({media, cardTitle, cardText}) => 
     <Card>
@@ -17,7 +17,7 @@ const Post = ({media, cardTitle, cardText}) =>
             {cardText} 
         </CardText>
         {/* <CardActions>
-            <FlatButton label="Give" />
+            <Button label="Give" />
         </CardActions> */}
     </Card>     
 
