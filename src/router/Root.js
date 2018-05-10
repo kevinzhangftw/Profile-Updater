@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import { hot } from 'react-hot-loader';
-import store from '../redux/store';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import { hot } from 'react-hot-loader'
+import store from '../redux/store'
 
-import { Home, About } from '../containers';
+import { Home, About } from '../containers'
 
 class Root extends Component {
   render() {
-    console.log(store);
+    console.log(store)
     return (
       <Provider store={store}>
         <Router>
@@ -18,8 +18,8 @@ class Root extends Component {
           </div>
         </Router>
       </Provider>
-    );
+    )
   }
 }
 
-export default hot(module)(Root);
+export default hot(module)(Root)

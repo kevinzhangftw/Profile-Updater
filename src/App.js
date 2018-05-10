@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Root from './router/Root';
+import React, { Component } from 'react'
+import Root from './router/Root'
 
 class App extends Component {
   render() {
@@ -7,8 +7,8 @@ class App extends Component {
       <div>
         <Root/>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
