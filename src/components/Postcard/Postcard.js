@@ -16,32 +16,27 @@ const styles = {
 };
 
 function Postcard(props) {
-  const { classes } = props;
+  const { classes, media, cardtitle, cardtext } = props;
   return (
     <div>
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
-          image="/static/images/winningTeam.jpg"
-          title="Contemplative Reptile"
+          image={media}
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
-            Lizard
+            {cardtitle}
           </Typography>
           <Typography component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {cardtext}
           </Typography>
         </CardContent>
-        <CardActions>
+        {/* <CardActions>
           <Button size="small" color="primary">
             Share
           </Button>
-          <Button size="small" color="primary">
-            Learn More
-          </Button>
-        </CardActions>
+        </CardActions> */}
       </Card>
     </div>
   );

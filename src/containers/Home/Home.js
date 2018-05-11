@@ -30,13 +30,13 @@ export class Home extends Component {
     return (
       <MuiThemeProvider theme={createMuiTheme(darkBaseTheme)}>
         <LazyLoad height={200}>
-          <Postcard />
+          <Postcard media="/static/images/winningTeam.jpg" cardtitle="HIHI" cardtext="sometext"/>
         </LazyLoad>
         <LazyLoad height={200}>
-          <Postcard />
+        <Postcard media="/static/images/winningTeam.jpg" cardtitle="HIHI" cardtext="sometext"/>
         </LazyLoad>
         <LazyLoad height={200}>
-          <Postcard />
+        <Postcard media="/static/images/winningTeam.jpg" cardtitle="HIHI" cardtext="sometext"/>
         </LazyLoad>
       </MuiThemeProvider>    
     )
