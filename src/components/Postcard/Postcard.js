@@ -7,7 +7,7 @@ import Typography from 'material-ui/Typography';
 
 const styles = {
   card: {
-    maxWidth: 345,
+    position: 'relative',
   },
   media: {
     height: 0,
@@ -46,4 +46,5 @@ Postcard.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Postcard);
+export default withStyles(styles)(Postcard)
+// export default Postcard

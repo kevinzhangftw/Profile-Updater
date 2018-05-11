@@ -9,12 +9,6 @@ import Postcard from '../../components/Postcard'
 // material ui themes
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles'
 import {grey, amber, red} from 'material-ui/colors'
-// import static images from the image folder
-// import winningTeam from '../../images/winningTeam.jpg'
-// import kaiTimmies from '../../images/kaiTimmies.jpg'
-// import filmShoot from '../../images/filmShoot.jpg'
-// import kai2016 from '../../images/kai2016.jpg'
-// import kai2017 from '../../images/kai2017.jpg'
 
 const darkBaseTheme = createMuiTheme({
   palette: {
@@ -30,13 +24,16 @@ export class Home extends Component {
     return (
       <MuiThemeProvider theme={createMuiTheme(darkBaseTheme)}>
         <LazyLoad height={200}>
-          <Postcard media="/static/images/winningTeam.jpg" cardtitle="HIHI" cardtext="sometext"/>
+          <Postcard media="/static/images/kai2017.jpg" cardtitle="2017" cardtext="My portrait shoot in 2017 using cannon t3i 135mm"/>
         </LazyLoad>
         <LazyLoad height={200}>
-        <Postcard media="/static/images/winningTeam.jpg" cardtitle="HIHI" cardtext="sometext"/>
+        <Postcard media="/static/images/filmShoot.jpg" cardtitle="Farewell Filmshoot" cardtext="I played the male lead in short film Farewell for Langara Film Course"/>
         </LazyLoad>
         <LazyLoad height={200}>
-        <Postcard media="/static/images/winningTeam.jpg" cardtitle="HIHI" cardtext="sometext"/>
+        <Postcard media="/static/images/kai2016.jpg" cardtitle="2016" cardtext="My team won the 2017 SOSY LoveHackthon"/>
+        </LazyLoad>
+        <LazyLoad height={200}>
+        <Postcard media="/static/images/kaiTimmies.jpg" cardtitle="by my bae" cardtext="My portrait by my bae on google pixel"/>
         </LazyLoad>
       </MuiThemeProvider>    
     )
