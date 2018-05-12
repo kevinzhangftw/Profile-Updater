@@ -1,10 +1,10 @@
 const initialState = {
   name: 'KAI',
   lastName: 'Z',
-};
+} 
 
 const reducerA = (state = initialState) => {
-  return state;
-};
+  return state 
+} 
 
-export default reducerA;
+export default reducerA 

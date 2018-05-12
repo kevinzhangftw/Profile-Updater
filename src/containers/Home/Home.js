@@ -6,9 +6,11 @@ import { bindActionCreators } from 'redux'
 import LazyLoad from 'react-lazyload'
 //compoents
 import Postcard from '../../components/Postcard'
-// material ui themes
+import Uploadbutton from '../../components/Uploadbutton'
+// material ui themes and compoents
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles'
 import {grey, amber, red} from 'material-ui/colors'
+
 
 const darkBaseTheme = createMuiTheme({
   palette: {
@@ -35,6 +37,8 @@ export class Home extends Component {
         <LazyLoad height={200}>
         <Postcard media="/static/images/kaiTimmies.jpg" cardtitle="by my bae" cardtext="My portrait by my bae on google pixel"/>
         </LazyLoad>
+
+        <Uploadbutton />
       </MuiThemeProvider>    
     )
   }
